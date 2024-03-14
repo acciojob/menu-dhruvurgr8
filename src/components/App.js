@@ -22,7 +22,7 @@ const App = () => {
         >
           All
         </button>
-        <button
+        <button id="filter-btn-1"
           onClick={() => {
             filterDish("breakfast");
           }}
@@ -30,6 +30,7 @@ const App = () => {
           Breakfast
         </button>
         <button
+        id="filter-btn-2"
           onClick={() => {
             filterDish("lunch");
           }}
@@ -37,6 +38,7 @@ const App = () => {
           Lunch
         </button>
         <button
+        id="filter-btn-3"
           onClick={() => {
             filterDish("shakes");
           }}
